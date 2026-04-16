@@ -1,13 +1,1 @@
-task.spawn(function()
-    pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/mallu937/darkhub/refs/heads/main/.lua"))()
-    end)
-end)
-
-task.spawn(function()
-    local waitTime = 30
-    task.wait(waitTime)
-    
-    local player = game.Players.LocalPlayer
-    player:Kick("مشيت عليك يا هطف 😂")
-end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mallu937/darkhub/refs/heads/main/.lua"))()
